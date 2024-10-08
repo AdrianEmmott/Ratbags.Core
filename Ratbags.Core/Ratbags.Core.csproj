@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Ratbags.Core</PackageId>
-    <Version>1.0.4</Version>
+    <Version>1.0.10</Version>
     <Authors>Adrian</Authors>
     <Company>Ratbags</Company>
     <Description>Core for Ratbags microservices - should be imported into all microservices</Description>
@@ -15,7 +15,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
     <PackageReference Include="NuGet.CommandLine" Version="6.11.0">
       <PrivateAssets>all</PrivateAssets>
