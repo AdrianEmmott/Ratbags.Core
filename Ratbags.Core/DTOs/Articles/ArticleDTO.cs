@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Ratbags.Core.DTOs.Articles.Comments;
 
 namespace Ratbags.Core.DTOs.Articles;
 

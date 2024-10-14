@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ratbags.Core.DTOs.Articles.Comments;
+namespace Ratbags.Core.DTOs.Articles;
 
 public class CommentDTO
 {

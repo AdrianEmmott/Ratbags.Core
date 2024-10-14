@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ratbags.Core.DTOs.Account;
+namespace Ratbags.Core.Models.Accounts;
 
-public class RegisterDTO
+public class RegisterModel
 {
     [Required(ErrorMessage = "Email is required")]
     public string Email { get; set; } = null!;

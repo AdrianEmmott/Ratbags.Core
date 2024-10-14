@@ -1,4 +1,4 @@
-﻿using Ratbags.Core.DTOs.Articles.Comments;
+﻿using Ratbags.Core.DTOs.Articles;
 
 namespace Ratbags.Core.Events.CommentsRequest;
 

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ratbags.Core.DTOs.Articles.Comments;
+namespace Ratbags.Core.Models.Articles;
 
-public class CreateCommentDTO
+public class CreateCommentModel
 {
     [Required(ErrorMessage = "Article id is required")]
     public Guid ArticleId { get; set; }
