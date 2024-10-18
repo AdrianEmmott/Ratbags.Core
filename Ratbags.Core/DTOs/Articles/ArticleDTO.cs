@@ -4,14 +4,13 @@ namespace Ratbags.Core.DTOs.Articles;
 
 public class ArticleDTO
 {
-    [Required(ErrorMessage = "Article id is required")]
     public Guid Id { get; set; }
 
-    [Required(ErrorMessage = "Title is required")]
-    public string Title { get; set; } = null!;
+    public string Title { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Content is required")]
-    public string Content { get; set; } = null!;
+    public string Description { get; set; } = string.Empty;
+
+    public string Content { get; set; } = string.Empty;
 
     public DateTime Created { get; set; }
 
