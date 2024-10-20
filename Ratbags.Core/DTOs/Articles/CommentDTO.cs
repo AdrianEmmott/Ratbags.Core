@@ -4,18 +4,11 @@ namespace Ratbags.Core.DTOs.Articles;
 
 public class CommentDTO
 {
-    [Required(ErrorMessage = "Comment id is required")]
     public Guid Id { get; set; }
 
-    [Required(ErrorMessage = "Article id is required")]
-    public Guid ArticleId { get; set; }
+    public string CommenterName {  get; set; }=string.Empty;
 
-    [Required(ErrorMessage = "User id is required")]
-    public Guid UserId { get; set; }
-
-    [Required(ErrorMessage = "Comment is required")]
     public string Content { get; set; } = null!;
 
-    [Required(ErrorMessage = "Publish date is required")]
     public DateTime Published { get; set; }
 }

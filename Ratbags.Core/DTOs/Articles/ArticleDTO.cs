@@ -12,6 +12,8 @@ public class ArticleDTO
 
     public string Content { get; set; } = string.Empty;
 
+    public string BannerImageUrl { get; set; } = string.Empty;
+
     public DateTime Created { get; set; }
 
     public DateTime? Updated { get; set; }
@@ -19,4 +21,6 @@ public class ArticleDTO
     public DateTime? Published { get; set; }
 
     public List<CommentDTO>? Comments { get; set; } = new List<CommentDTO>() { };
+
+    public string AuthorName { get; set; } = string.Empty;
 }
