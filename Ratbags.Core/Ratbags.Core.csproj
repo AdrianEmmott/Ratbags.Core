@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Ratbags.Core</PackageId>
-    <Version>1.0.41</Version>
+    <Version>1.0.49</Version>
     <Authors>Adrian</Authors>
     <Company>Ratbags</Company>
     <Description>Core for Ratbags microservices - should be imported into all microservices</Description>

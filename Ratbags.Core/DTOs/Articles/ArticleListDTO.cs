@@ -6,8 +6,9 @@ public class ArticleListDTO
 {
     public Guid Id { get; set; }
     public string Title { get; set; } = null!;
-    public string ThumbnailImageUrl { get; set;} = null!;
-    public string Description { get; set; } = null!;
+    public string? ThumbnailImageUrl { get; set;}
+    public string? Description { get; set; } // targ line
+    public DateTime Created { get; set; }
     public DateTime? Published { get; set; }
-    public int CommentCount { get; set; } // TODO should probably have a separate dto for article lists...
+    public int CommentCount { get; set; }
 }

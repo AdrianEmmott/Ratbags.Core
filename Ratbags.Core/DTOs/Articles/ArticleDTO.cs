@@ -8,11 +8,13 @@ public class ArticleDTO
 
     public string Title { get; set; } = string.Empty;
 
-    public string Description { get; set; } = string.Empty;
+    public string? Description { get; set; } // tag line for lists
+
+    public string? Introduction { get; set; } // introduction on article itself
 
     public string Content { get; set; } = string.Empty;
 
-    public string BannerImageUrl { get; set; } = string.Empty;
+    public string? BannerImageUrl { get; set; }
 
     public DateTime Created { get; set; }
 

@@ -8,16 +8,18 @@ public class UpdateArticleModel
     public Guid Id { get; set; }
 
     [Required(ErrorMessage = "Title is required")]
-    public string Title { get; set; } = null!;
+    public string Title { get; set; } = string.Empty;
+
+    public string? Description { get; set; } // tag line for lists
+
+    public string? Introduction { get; set; } // introduction on article itself
 
     [Required(ErrorMessage = "Content is required")]
-    public string Content { get; set; } = null!;
+    public string Content { get; set; } = string.Empty;
 
-    public DateTime Created { get; set; }
+    public string? BannerImageUrl { get; set; }
 
     public DateTime? Updated { get; set; }
 
     public DateTime? Published { get; set; }
-
-    public List<CommentDTO>? Comments { get; set; } = new List<CommentDTO>() { };
 }
